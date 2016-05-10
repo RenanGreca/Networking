@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FBB3FFC1CE2674E0059C0E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB3FFB1CE2674E0059C0E7 /* AppDelegate.swift */; };
+		1FBB3FFE1CE2674E0059C0E7 /* iOSGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB3FFD1CE2674E0059C0E7 /* iOSGameScene.sks */; };
+		1FBB40001CE2674E0059C0E7 /* iOSGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB3FFF1CE2674E0059C0E7 /* iOSGameScene.swift */; };
+		1FBB40021CE2674E0059C0E7 /* iOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB40011CE2674E0059C0E7 /* iOSViewController.swift */; };
+		1FBB40051CE2674E0059C0E7 /* iOS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB40031CE2674E0059C0E7 /* iOS.storyboard */; };
+		1FBB40071CE2674E0059C0E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB40061CE2674E0059C0E7 /* Assets.xcassets */; };
+		1FBB400A1CE2674E0059C0E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB40081CE2674E0059C0E7 /* LaunchScreen.storyboard */; };
+		1FBB40341CE267960059C0E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB40331CE267960059C0E7 /* AppDelegate.swift */; };
+		1FBB40361CE267960059C0E7 /* tvOSGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB40351CE267960059C0E7 /* tvOSGameScene.sks */; };
+		1FBB40381CE267960059C0E7 /* tvOSGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB40371CE267960059C0E7 /* tvOSGameScene.swift */; };
+		1FBB403A1CE267960059C0E7 /* tvOSGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB40391CE267960059C0E7 /* tvOSGameViewController.swift */; };
+		1FBB403C1CE267970059C0E7 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB403B1CE267970059C0E7 /* Game.xcassets */; };
+		1FBB403F1CE267970059C0E7 /* tvOS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB403D1CE267970059C0E7 /* tvOS.storyboard */; };
+		1FBB40411CE267970059C0E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB40401CE267970059C0E7 /* Assets.xcassets */; };
+		1FBB40741CE26A3B0059C0E7 /* BonjourTCPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB40721CE26A3B0059C0E7 /* BonjourTCPServer.swift */; };
+		1FBB40751CE26A3B0059C0E7 /* BonjourTCPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB40721CE26A3B0059C0E7 /* BonjourTCPServer.swift */; };
+		1FBB40761CE26A3B0059C0E7 /* BonjourTCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB40731CE26A3B0059C0E7 /* BonjourTCPClient.swift */; };
+		1FBB40771CE26A3B0059C0E7 /* BonjourTCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB40731CE26A3B0059C0E7 /* BonjourTCPClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FBB3FF81CE2674E0059C0E7 /* iNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBB3FFB1CE2674E0059C0E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FBB3FFD1CE2674E0059C0E7 /* iOSGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = iOSGameScene.sks; sourceTree = "<group>"; };
+		1FBB3FFF1CE2674E0059C0E7 /* iOSGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSGameScene.swift; sourceTree = "<group>"; };
+		1FBB40011CE2674E0059C0E7 /* iOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSViewController.swift; sourceTree = "<group>"; };
+		1FBB40041CE2674E0059C0E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iOS.storyboard; sourceTree = "<group>"; };
+		1FBB40061CE2674E0059C0E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FBB40091CE2674E0059C0E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FBB400B1CE2674E0059C0E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBB40311CE267960059C0E7 /* tvNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBB40331CE267960059C0E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FBB40351CE267960059C0E7 /* tvOSGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = tvOSGameScene.sks; sourceTree = "<group>"; };
+		1FBB40371CE267960059C0E7 /* tvOSGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOSGameScene.swift; sourceTree = "<group>"; };
+		1FBB40391CE267960059C0E7 /* tvOSGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOSGameViewController.swift; sourceTree = "<group>"; };
+		1FBB403B1CE267970059C0E7 /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
+		1FBB403E1CE267970059C0E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/tvOS.storyboard; sourceTree = "<group>"; };
+		1FBB40401CE267970059C0E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FBB40421CE267970059C0E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBB40721CE26A3B0059C0E7 /* BonjourTCPServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonjourTCPServer.swift; sourceTree = "<group>"; };
+		1FBB40731CE26A3B0059C0E7 /* BonjourTCPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonjourTCPClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FBB3FF51CE2674E0059C0E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBB402E1CE267960059C0E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FBB3FEF1CE2674E0059C0E7 = {
+			isa = PBXGroup;
+			children = (
+				1FBB40711CE26A280059C0E7 /* Supporting Files */,
+				1FBB3FFA1CE2674E0059C0E7 /* iNetworking */,
+				1FBB40321CE267960059C0E7 /* tvNetworking */,
+				1FBB3FF91CE2674E0059C0E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FBB3FF91CE2674E0059C0E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FBB3FF81CE2674E0059C0E7 /* iNetworking.app */,
+				1FBB40311CE267960059C0E7 /* tvNetworking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FBB3FFA1CE2674E0059C0E7 /* iNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				1FBB3FFB1CE2674E0059C0E7 /* AppDelegate.swift */,
+				1FBB3FFD1CE2674E0059C0E7 /* iOSGameScene.sks */,
+				1FBB3FFF1CE2674E0059C0E7 /* iOSGameScene.swift */,
+				1FBB40011CE2674E0059C0E7 /* iOSViewController.swift */,
+				1FBB40031CE2674E0059C0E7 /* iOS.storyboard */,
+				1FBB40061CE2674E0059C0E7 /* Assets.xcassets */,
+				1FBB40081CE2674E0059C0E7 /* LaunchScreen.storyboard */,
+				1FBB400B1CE2674E0059C0E7 /* Info.plist */,
+			);
+			name = iNetworking;
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1FBB40321CE267960059C0E7 /* tvNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				1FBB40331CE267960059C0E7 /* AppDelegate.swift */,
+				1FBB40351CE267960059C0E7 /* tvOSGameScene.sks */,
+				1FBB40371CE267960059C0E7 /* tvOSGameScene.swift */,
+				1FBB40391CE267960059C0E7 /* tvOSGameViewController.swift */,
+				1FBB403B1CE267970059C0E7 /* Game.xcassets */,
+				1FBB403D1CE267970059C0E7 /* tvOS.storyboard */,
+				1FBB40401CE267970059C0E7 /* Assets.xcassets */,
+				1FBB40421CE267970059C0E7 /* Info.plist */,
+			);
+			path = tvNetworking;
+			sourceTree = "<group>";
+		};
+		1FBB40711CE26A280059C0E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FBB40721CE26A3B0059C0E7 /* BonjourTCPServer.swift */,
+				1FBB40731CE26A3B0059C0E7 /* BonjourTCPClient.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FBB3FF71CE2674E0059C0E7 /* iNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FBB40241CE2674E0059C0E7 /* Build configuration list for PBXNativeTarget "iNetworking" */;
+			buildPhases = (
+				1FBB3FF41CE2674E0059C0E7 /* Sources */,
+				1FBB3FF51CE2674E0059C0E7 /* Frameworks */,
+				1FBB3FF61CE2674E0059C0E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iNetworking;
+			productName = Networking;
+			productReference = 1FBB3FF81CE2674E0059C0E7 /* iNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FBB40301CE267960059C0E7 /* tvNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FBB40591CE267970059C0E7 /* Build configuration list for PBXNativeTarget "tvNetworking" */;
+			buildPhases = (
+				1FBB402D1CE267960059C0E7 /* Sources */,
+				1FBB402E1CE267960059C0E7 /* Frameworks */,
+				1FBB402F1CE267960059C0E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvNetworking;
+			productName = tvNetworking;
+			productReference = 1FBB40311CE267960059C0E7 /* tvNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FBB3FF01CE2674E0059C0E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = renangreca;
+				TargetAttributes = {
+					1FBB3FF71CE2674E0059C0E7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6E3MXG6BSH;
+					};
+					1FBB40301CE267960059C0E7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1FBB3FF31CE2674E0059C0E7 /* Build configuration list for PBXProject "Networking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FBB3FEF1CE2674E0059C0E7;
+			productRefGroup = 1FBB3FF91CE2674E0059C0E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FBB3FF71CE2674E0059C0E7 /* iNetworking */,
+				1FBB40301CE267960059C0E7 /* tvNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FBB3FF61CE2674E0059C0E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBB3FFE1CE2674E0059C0E7 /* iOSGameScene.sks in Resources */,
+				1FBB400A1CE2674E0059C0E7 /* LaunchScreen.storyboard in Resources */,
+				1FBB40071CE2674E0059C0E7 /* Assets.xcassets in Resources */,
+				1FBB40051CE2674E0059C0E7 /* iOS.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBB402F1CE267960059C0E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBB403F1CE267970059C0E7 /* tvOS.storyboard in Resources */,
+				1FBB40361CE267960059C0E7 /* tvOSGameScene.sks in Resources */,
+				1FBB40411CE267970059C0E7 /* Assets.xcassets in Resources */,
+				1FBB403C1CE267970059C0E7 /* Game.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FBB3FF41CE2674E0059C0E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBB40001CE2674E0059C0E7 /* iOSGameScene.swift in Sources */,
+				1FBB40761CE26A3B0059C0E7 /* BonjourTCPClient.swift in Sources */,
+				1FBB40021CE2674E0059C0E7 /* iOSViewController.swift in Sources */,
+				1FBB40741CE26A3B0059C0E7 /* BonjourTCPServer.swift in Sources */,
+				1FBB3FFC1CE2674E0059C0E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBB402D1CE267960059C0E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBB40381CE267960059C0E7 /* tvOSGameScene.swift in Sources */,
+				1FBB40771CE26A3B0059C0E7 /* BonjourTCPClient.swift in Sources */,
+				1FBB403A1CE267960059C0E7 /* tvOSGameViewController.swift in Sources */,
+				1FBB40751CE26A3B0059C0E7 /* BonjourTCPServer.swift in Sources */,
+				1FBB40341CE267960059C0E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FBB40031CE2674E0059C0E7 /* iOS.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FBB40041CE2674E0059C0E7 /* Base */,
+			);
+			name = iOS.storyboard;
+			sourceTree = "<group>";
+		};
+		1FBB40081CE2674E0059C0E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FBB40091CE2674E0059C0E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1FBB403D1CE267970059C0E7 /* tvOS.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FBB403E1CE267970059C0E7 /* Base */,
+			);
+			name = tvOS.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FBB40221CE2674E0059C0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FBB40231CE2674E0059C0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FBB40251CE2674E0059C0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Networking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renangreca.iNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1FBB40261CE2674E0059C0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Networking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renangreca.iNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		1FBB405A1CE267970059C0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = tvNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renangreca.tvNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		1FBB405B1CE267970059C0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = tvNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renangreca.tvNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FBB3FF31CE2674E0059C0E7 /* Build configuration list for PBXProject "Networking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBB40221CE2674E0059C0E7 /* Debug */,
+				1FBB40231CE2674E0059C0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FBB40241CE2674E0059C0E7 /* Build configuration list for PBXNativeTarget "iNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBB40251CE2674E0059C0E7 /* Debug */,
+				1FBB40261CE2674E0059C0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FBB40591CE267970059C0E7 /* Build configuration list for PBXNativeTarget "tvNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBB405A1CE267970059C0E7 /* Debug */,
+				1FBB405B1CE267970059C0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FBB3FF01CE2674E0059C0E7 /* Project object */;
+}
